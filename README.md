@@ -14,6 +14,8 @@ docker compose run --rm runner all
 
 ```
 
+![IRIS successful local run](docs/assets/iris-demo.gif)
+
 The command starts PostgreSQL, waits for its healthcheck, rebuilds the IRIS schemas,
 
 loads and promotes fixtures, persists screening evidence, runs verification, and
