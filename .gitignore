@@ -1,0 +1,25 @@
+# Assignment-only source files
+/AGENTS.md
+/docs/IRIS-CAND-03.pdf
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python caches and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary output
+*.log
+*.tmp
+.tmp/
+temp/
