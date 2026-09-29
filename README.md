@@ -4,6 +4,17 @@ Implementation of the Project IRIS PostgreSQL/PostGIS technical assignment.
 
 Detailed architecture, schema, data contracts, and production evolution are in `docs/`.
 
+## Required deliverables
+
+The expected deliverables are:
+
+1. Schema migrations in `migrations/`
+2. Deterministic fixtures in `fixtures/`
+3. Promotion and screening SQL in `fixtures/` and `screening/`
+4. Read-only verification queries in `verification/`
+5. SQL tests in `tests/`
+6. Documentation consistent with the assignment brief
+
 # Quick start (Docker only)
 
 Run this from the project root in PowerShell, CMD, Bash, or Zsh:
